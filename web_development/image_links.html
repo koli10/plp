@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Links</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    section {
+      margin-bottom: 30px;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<section id="home">
+  <h2>Welcome to Our Website!</h2>
+  <p>This is the home section. Check out our linked image related to technology:</p>
+  <a href="#" target="_blank">
+    <img src="img/tech.jpeg" alt="Technology Image">
+  </a>
+</section>
+
+<section id="gallery">
+  <h2>Nature Gallery</h2>
+  <p>Explore the beauty of nature with our linked images:</p>
+  <div class="gallery">
+    <a href="#" target="_blank"><img src="img/nature1.jpeg" alt="Nature Image 1"></a>
+    <a href="#" target="_blank"><img src="img/nature2.jpeg" alt="Nature Image 2"></a>
+    <a href="#" target="_blank"><img src="img/nature3.jpeg" alt="Nature Image 3"></a>
+  </div>
+</section>
+
+<section id="menu">
+  <h2>Menu</h2>
+  <p>Delight your taste buds with our menu. Each item is linked to a related image:</p>
+  <ul>
+    <li><a href="img/pizza.jpeg" target="_blank">Pizza</a></li>
+    <li><a href="img/salad.jpeg" target="_blank">Salad</a></li>
+    <li><a href="img/burger.jpeg" target="_blank">Burger</a></li>
+    <!-- Add more food items as needed -->
+  </ul>
+</section>
+
+</body>
+</html>
