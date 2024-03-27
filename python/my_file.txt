@@ -1,0 +1,7 @@
+This is line 1
+2nd line with some numbers: 12345
+Line 3: End of file creation.
+
+Appending line 1
+Appending line 2
+Appending line 3
